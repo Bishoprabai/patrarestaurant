@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu</title>
+    <style>
+      body {
+        background-color: #000;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+
+      figure img {
+        overflow: hidden;
+      }
+
+      figure a img {
+        height: 300px;
+        width: 250px;
+        border-radius: 50px;
+      }
+
+      figure a img {
+        transform: scale(1.2);
+        transition-property: transform;
+      }
+
+      figure:hover a img {
+        transform: scale(1);
+      }
+
+      figure img {
+        transition-timing-function: ease-in-out;
+        transition-duration: var(--def-transition-duration);
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <figure>
+        <a href="#">
+          <img src="images/food1.jpeg" alt="one" />
+        </a>
+      </figure>
+
+      <figure>
+        <a href="#">
+          <img src="images/food2.jpeg" alt="two" />
+        </a>
+      </figure>
+
+      <figure>
+        <a href="#">
+          <img src="images/food3.jpeg" alt="three" />
+        </a>
+      </figure>
+
+      <figure>
+        <a href="#">
+          <img src="images/food4.jpeg" alt="four" />
+        </a>
+      </figure>
+
+      <figure>
+        <a href="#">
+          <img src="images/ice2.jpeg" alt="six" />
+        </a>
+      </figure>
+
+      <figure>
+        <a href="#">
+          <img src="images/coffee1.jpeg" alt="seven" />
+        </a>
+      </figure>
+
+      <figure>
+        <a href="#">
+          <img src="images/coffee2.jpeg" alt="eight" />
+        </a>
+      </figure>
+    </section>
+  </body>
+</html>
